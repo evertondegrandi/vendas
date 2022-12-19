@@ -92,6 +92,8 @@ object dmconexao: Tdmconexao
     Top = 96
   end
   object FDSchemaAdapter: TFDSchemaAdapter
+    UpdateOptions.AssignedValues = [uvAutoCommitUpdates]
+    AfterApplyUpdate = FDSchemaAdapterAfterApplyUpdate
     Left = 384
     Top = 176
   end

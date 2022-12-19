@@ -23,7 +23,6 @@ type
     Label5: TLabel;
     comboStatus: TDBComboBox;
     dbeTotalVenda: TDBEdit;
-    Button1: TButton;
     procedure botaoPesquisarClick(Sender: TObject);
     procedure botaoGravarClick(Sender: TObject);
     procedure FormShow(Sender: TObject);

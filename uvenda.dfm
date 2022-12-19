@@ -50,8 +50,8 @@ inherited fvenda: Tfvenda
     Top = 430
     Width = 980
     ButtonWidth = 93
-    ExplicitTop = 408
-    ExplicitWidth = 521
+    ExplicitTop = 430
+    ExplicitWidth = 980
     inherited botaoNovo: TToolButton
       ExplicitWidth = 93
     end
@@ -172,15 +172,6 @@ inherited fvenda: Tfvenda
     DataSource = dmconexao.srcconexaItens
     Enabled = False
     TabOrder = 7
-  end
-  object Button1: TButton [13]
-    Left = 616
-    Top = 392
-    Width = 75
-    Height = 25
-    Caption = 'Button1'
-    TabOrder = 8
-    OnClick = Button1Click
   end
   inherited imglistmodelo: TImageList
     Top = 0

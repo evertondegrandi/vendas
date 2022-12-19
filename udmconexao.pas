@@ -82,6 +82,7 @@ type
     procedure qryVendaItensNewRecord(DataSet: TDataSet);
     procedure qryVendaItensVENDAITEM_QTDVENDIDAValidate(Sender: TField);
     procedure qryVendaNewRecord(DataSet: TDataSet);
+    procedure FDSchemaAdapterAfterApplyUpdate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -145,9 +146,6 @@ procedure Tdmconexao.commit;
 var
   slAuxDuplica : TStringList;
 begin
-  qryVenda.CommitUpdates;
-  qryVendaItens.CommitUpdates;
-
   if qryVendaItens.IsEmpty then
   begin
     ShowMessage('Venda deve possuir Itens.');
@@ -176,6 +174,12 @@ begin
   end;
 
   FDSchemaAdapter.ApplyUpdates(0);
+end;
+
+procedure Tdmconexao.FDSchemaAdapterAfterApplyUpdate(Sender: TObject);
+begin
+  qryVenda.CommitUpdates;
+  qryVendaItens.CommitUpdates;
 end;
 
 function TFabricaBuscas.CriaBusca(const TipoBusca: string): ITipoBusca;
