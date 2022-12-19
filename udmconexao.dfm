@@ -1,20 +1,18 @@
 object dmconexao: Tdmconexao
   OldCreateOrder = False
+  OnCreate = DataModuleCreate
   Height = 342
   Width = 475
   object FDConnection: TFDConnection
     Params.Strings = (
       'Database=DBMONTREAL'
-      'User_Name=sa'
-      'Password=tesla2017'
       'Server=DESKTOP-3BU80HC\SQLEXPRESS'
+      'OSAuthent=Yes'
       'DriverID=MSSQL')
-    Connected = True
     Left = 48
     Top = 48
   end
   object qryCliente: TFDQuery
-    Active = True
     BeforePost = qryClienteBeforePost
     Connection = FDConnection
     SQL.Strings = (
@@ -69,39 +67,11 @@ object dmconexao: Tdmconexao
       EditMask = '!99/99/9999;1;_'
     end
   end
-  object FDQBusca: TFDQuery
-    Connection = FDConnection
-    Left = 384
-    Top = 32
-  end
-  object memtableVenda: TFDMemTable
-    FetchOptions.AssignedValues = [evMode]
-    FetchOptions.Mode = fmAll
-    ResourceOptions.AssignedValues = [rvSilentMode]
-    ResourceOptions.SilentMode = True
-    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
-    UpdateOptions.CheckRequired = False
-    UpdateOptions.AutoCommitUpdates = True
-    LocalSQL = FDLocalCliente
-    Left = 288
-    Top = 97
-  end
-  object srcmemTabel: TDataSource
-    DataSet = memtableVenda
-    Left = 384
-    Top = 96
-  end
   object FDSchemaAdapter: TFDSchemaAdapter
     UpdateOptions.AssignedValues = [uvAutoCommitUpdates]
     AfterApplyUpdate = FDSchemaAdapterAfterApplyUpdate
     Left = 384
     Top = 176
-  end
-  object FDLocalCliente: TFDLocalSQL
-    Connection = FDConnection
-    DataSets = <>
-    Left = 128
-    Top = 48
   end
   object qryValida: TFDQuery
     Connection = FDConnection
@@ -120,7 +90,6 @@ object dmconexao: Tdmconexao
       end>
   end
   object qryFornecedor: TFDQuery
-    Active = True
     BeforePost = qryFornecedorBeforePost
     Connection = FDConnection
     SQL.Strings = (
@@ -162,7 +131,7 @@ object dmconexao: Tdmconexao
       FieldName = 'FORNEC_CNPJ'
       Origin = 'FORNEC_CNPJ'
       Required = True
-      EditMask = '99.999.999/9999-99'
+      EditMask = '00\.000\.000\/0000\-00;0;'
       Size = 14
     end
     object qryFornecedorFORNEC_STATUS: TStringField
@@ -176,7 +145,6 @@ object dmconexao: Tdmconexao
     end
   end
   object qryProduto: TFDQuery
-    Active = True
     BeforePost = qryProdutoBeforePost
     Connection = FDConnection
     SQL.Strings = (
@@ -235,7 +203,6 @@ object dmconexao: Tdmconexao
     end
   end
   object qryVenda: TFDQuery
-    Active = True
     BeforePost = qryVendaBeforePost
     OnNewRecord = qryVendaNewRecord
     CachedUpdates = True
@@ -284,7 +251,7 @@ object dmconexao: Tdmconexao
       FieldName = 'VENDA_DATAHORA'
       Origin = 'VENDA_DATAHORA'
       Required = True
-      EditMask = ' !90/00/0000 00:00:00;1;_'
+      EditMask = '!99/99/9999 99:99:99;1;_'
     end
     object qryVendaVENDA_SATUS: TStringField
       DisplayLabel = 'Status'
@@ -296,7 +263,6 @@ object dmconexao: Tdmconexao
     end
   end
   object qryVendaItens: TFDQuery
-    Active = True
     OnNewRecord = qryVendaItensNewRecord
     CachedUpdates = True
     AggregatesActive = True
@@ -401,7 +367,6 @@ object dmconexao: Tdmconexao
     Top = 272
   end
   object qryClientesRel: TFDQuery
-    Active = True
     BeforePost = qryClienteBeforePost
     Connection = FDConnection
     SQL.Strings = (

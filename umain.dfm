@@ -2,8 +2,8 @@ object fmain: Tfmain
   Left = 0
   Top = 0
   Caption = 'Montreal  teste'
-  ClientHeight = 478
-  ClientWidth = 733
+  ClientHeight = 488
+  ClientWidth = 1054
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,13 +17,15 @@ object fmain: Tfmain
   object panel_background: TPanel
     Left = 0
     Top = 0
-    Width = 733
-    Height = 478
+    Width = 1054
+    Height = 488
     Align = alClient
     BevelOuter = bvNone
     Color = clBtnShadow
     ParentBackground = False
     TabOrder = 0
+    ExplicitWidth = 733
+    ExplicitHeight = 478
   end
   object MainMenuGeral: TMainMenu
     Left = 248

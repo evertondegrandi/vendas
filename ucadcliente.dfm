@@ -1,6 +1,8 @@
 inherited fcadcliente: Tfcadcliente
   Caption = 'Cadastro de Ciente'
   ClientHeight = 300
+  ClientWidth = 671
+  ExplicitWidth = 687
   ExplicitHeight = 339
   PixelsPerInch = 96
   TextHeight = 13
@@ -41,6 +43,7 @@ inherited fcadcliente: Tfcadcliente
   end
   inherited ToolBar1: TToolBar
     Top = 260
+    Width = 671
     ExplicitTop = 260
     inherited botaoPesquisar: TToolButton
       OnClick = botaoPesquisarClick
@@ -62,7 +65,6 @@ inherited fcadcliente: Tfcadcliente
     Height = 21
     DataField = 'CLIENTE_CPF'
     DataSource = srcConexao
-    MaxLength = 14
     TabOrder = 2
   end
   object dbeData: TDBEdit [8]
@@ -72,7 +74,6 @@ inherited fcadcliente: Tfcadcliente
     Height = 21
     DataField = 'CLIENTE_DATANASCIMENTO'
     DataSource = srcConexao
-    MaxLength = 10
     TabOrder = 3
   end
   object comboStatus: TDBComboBox [9]

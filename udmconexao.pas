@@ -15,11 +15,7 @@ type
   Tdmconexao = class(TDataModule)
     FDConnection: TFDConnection;
     qryCliente: TFDQuery;
-    FDQBusca: TFDQuery;
-    memtableVenda: TFDMemTable;
-    srcmemTabel: TDataSource;
     FDSchemaAdapter: TFDSchemaAdapter;
-    FDLocalCliente: TFDLocalSQL;
     qryClienteCLIENTE_NOME: TStringField;
     qryClienteCLIENTE_CPF: TStringField;
     qryClienteCLIENTE_STATUS: TStringField;
@@ -83,6 +79,7 @@ type
     procedure qryVendaItensVENDAITEM_QTDVENDIDAValidate(Sender: TField);
     procedure qryVendaNewRecord(DataSet: TDataSet);
     procedure FDSchemaAdapterAfterApplyUpdate(Sender: TObject);
+    procedure DataModuleCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -174,6 +171,17 @@ begin
   end;
 
   FDSchemaAdapter.ApplyUpdates(0);
+end;
+
+procedure Tdmconexao.DataModuleCreate(Sender: TObject);
+begin
+  FDConnection.Connected := True;
+  qryCliente.Active := True;
+  qryFornecedor.Active := True;
+  qryProduto.Active := True;
+  qryClientesRel.Active := True;
+  qryVenda.Active := True;
+  qryVendaItens.Active := True;
 end;
 
 procedure Tdmconexao.FDSchemaAdapterAfterApplyUpdate(Sender: TObject);
@@ -609,6 +617,8 @@ begin
     qryVendaVENDA_CODIGO.AsInteger := qryValida.FieldByName('CODIGO').AsInteger + 1
   else
     qryVendaVENDA_CODIGO.AsInteger := 1;
+
+  qryVendaVENDA_DATAHORA.AsString := FormatDateTime('dd/mm/yyyy hh:MM:ss', Now);
 end;
 
 procedure Tdmconexao.qryVendaVENDA_CODCLIENTEValidate(Sender: TField);

@@ -3,7 +3,7 @@ object frmPesquisa: TfrmPesquisa
   Top = 0
   Caption = 'Pesquisa'
   ClientHeight = 330
-  ClientWidth = 715
+  ClientWidth = 862
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,7 +16,7 @@ object frmPesquisa: TfrmPesquisa
   PixelsPerInch = 96
   TextHeight = 13
   object lbl_texto: TLabel
-    Left = 168
+    Left = 336
     Top = 16
     Width = 86
     Height = 13
@@ -25,7 +25,7 @@ object frmPesquisa: TfrmPesquisa
   object DBGrid1: TDBGrid
     Left = 0
     Top = 80
-    Width = 715
+    Width = 862
     Height = 250
     Align = alBottom
     DataSource = dsSQL
@@ -37,14 +37,14 @@ object frmPesquisa: TfrmPesquisa
     TitleFont.Style = []
   end
   object edtBusca: TEdit
-    Left = 168
+    Left = 336
     Top = 37
     Width = 329
     Height = 21
     TabOrder = 1
   end
   object btnPesquisa: TButton
-    Left = 511
+    Left = 679
     Top = 35
     Width = 75
     Height = 25
@@ -65,7 +65,7 @@ object frmPesquisa: TfrmPesquisa
     TabOrder = 3
   end
   object botaoselecionar: TButton
-    Left = 592
+    Left = 760
     Top = 35
     Width = 75
     Height = 25
