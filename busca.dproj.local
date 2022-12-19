@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/12/18 07:54:06.000.070,=rtl.dcp</Transaction>
+    <Transaction>2022/12/18 07:54:43.000.245,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\busca.dproj</Transaction>
+    <Transaction>2022/12/18 07:55:06.000.665,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 07:55:27.000.447,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ubusca.pas</Transaction>
+    <Transaction>2022/12/18 07:55:27.000.447,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ubusca.dfm</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.607,=dbrtl.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.600,=vcl.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.627,=dbexpress.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.615,=DbxCommonDriver.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.644,=FireDACCommon.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.632,=FireDAC.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.621,=vcldb.dcp</Transaction>
+    <Transaction>2022/12/18 08:25:08.000.637,=FireDACCommonDriver.dcp</Transaction>
+  </Transactions>
+</BorlandProject>

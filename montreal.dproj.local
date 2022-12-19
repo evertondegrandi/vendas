@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/15 21:13:57.000.790,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/15 21:13:57.000.066,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Project1.html</Transaction>
+    <Transaction>2019/09/29 15:33:42.000.671,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/29 15:34:57.000.231,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/29 15:43:57.000.152,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/29 16:29:46.000.654,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/09/29 16:44:47.000.315,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 16:02:06.000.947,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 16:22:19.000.307,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\main.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 16:22:19.000.307,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\main.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/17 16:22:28.000.528,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\montreal.dproj=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/12/17 16:24:41.000.062,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/17 16:27:29.000.055,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/12/17 16:27:43.000.714,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadclientes.dfm</Transaction>
+    <Transaction>2022/12/17 16:27:43.000.714,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadclientes.pas</Transaction>
+    <Transaction>2022/12/17 16:44:04.000.158,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 16:45:11.000.734,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\udmconexao.pas</Transaction>
+    <Transaction>2022/12/17 16:45:11.000.734,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\udmconexao.dfm</Transaction>
+    <Transaction>2022/12/17 20:44:52.000.228,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 20:47:31.000.209,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadastromodelo.pas</Transaction>
+    <Transaction>2022/12/17 20:47:31.000.223,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadastromodelo.dfm</Transaction>
+    <Transaction>2022/12/17 21:10:10.000.919,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/17 21:12:03.000.668,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadcliente.pas</Transaction>
+    <Transaction>2022/12/17 21:12:03.000.668,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadcliente.dfm</Transaction>
+    <Transaction>2022/12/18 09:06:11.000.718,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 11:31:24.000.337,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 11:31:52.000.570,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadfornecedor.dfm</Transaction>
+    <Transaction>2022/12/18 11:31:52.000.570,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadfornecedor.pas</Transaction>
+    <Transaction>2022/12/18 12:33:32.000.573,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 12:33:46.000.780,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadproduto.pas</Transaction>
+    <Transaction>2022/12/18 12:33:46.000.780,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\ucadproduto.dfm</Transaction>
+    <Transaction>2022/12/18 13:48:41.000.298,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 13:48:50.000.296,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\uvenda.pas</Transaction>
+    <Transaction>2022/12/18 13:48:50.000.296,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\uvenda.dfm</Transaction>
+    <Transaction>2022/12/18 20:05:13.413,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:05:38.133,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelvenda.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/18 20:05:38.133,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelvenda.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:38:57.458,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:39:44.576,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelVendaMain.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/18 20:39:44.576,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelVendaMain.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:50:33.214,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:51:19.942,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelClientes.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/18 20:51:19.942,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelClientes.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:58:52.732,=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/18 20:59:11.596,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelClientesMain.dfm=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/12/18 20:59:11.596,C:\Users\anapa\Documents\Embarcadero\Studio\Projects\urelClientesMain.pas=C:\Users\anapa\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
